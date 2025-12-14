@@ -1,4 +1,6 @@
-# 1. Project Goal
+# >playkuku
+
+## 1. Project Goal
 
 To create a real-time multiplayer web application of the Polish card game **"Kuku"**. The app uses a high-performance Python backend to manage game state and a lightweight React frontend.
 
@@ -26,9 +28,10 @@ To create a real-time multiplayer web application of the Polish card game **"Kuk
   - `connect` / `disconnect`
   - `join_game(room_code, username)`
   - `pass_card(card_index)`
+
   - `declare_kuku()`
 - [ ] **Game Loop:** Server validates move -> Updates State -> Broadcasts to Room.
 
 ## 4. Project infrastructure graph
 
-![norbert](https://imgur.com/a/MmUUPag)
+<img width="1144" height="1708" alt="image" src="https://github.com/user-attachments/assets/39c91474-c7c6-41b7-a9c2-567e86e11849" />
